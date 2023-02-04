@@ -21,12 +21,14 @@ function App() {
     </div>
     <Router>
       <nav className='navbar'>
+        <Link to ='/' className='link'></Link>
         <Link to ='/slider' className="link logoHome"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073243.png" alt="home" width="60px"/></Link>
         <Link to ='/home' className="link">Catalog</Link>
         <Link to ='/about' className="link">About us</Link>
         <Link to='/contact' className="link">Contacts</Link>
       </nav>
       <Routes>
+        <Route path ="/" element ={<Slider/>} />
         <Route path ="/slider" element ={<Slider/>} />
         <Route path ="/home" element ={<Home />} />
         <Route path ="/about" element ={<About />} />
