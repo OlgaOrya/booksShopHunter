@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.books{
+  padding: 20px;
+  width: 80%;
+  margin-left: 130px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: inset 2px 2px 5px rgba(202, 193, 193, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+.btnShowDescription{
+  border: none;
+  color: #187498;
+  background-color: white;
+}
+.btnChose{
+  padding: 15px;
+  margin: 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.filter{
+  background-color: #41a5ee;
+  color: #FCD900;
+}
+.header{
+  color: #001E6C;
+  font-size: 30px;
+}
+.questionAfterHeader{
+  color: #001E6C;
+  font-size: 23px;
+  font-style: italic;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.navbar{
+  background-color: #41a5ee;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+.logoHome{
+  margin-left: -120px;
+}
+.link{
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: -30px;
+  font-size: 20px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h1{
+  color: #FCD900;
 }
+.titleSlider{
+  margin-top: 20px;
+  font-size: 20px;
+  color:#001E6C;
+}
+.btnSlider{
+  margin-top: 7px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+  border: none;
+  background-color: white;
+  color:#187498;
+}
+.sliderPicture{
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.btnShop{
+  background-color: #FCD900;
+  color: #187498;
+}
+.infoAboutBook{
+  margin-left: 20px;
+  width: 70%;
+}
+.titleAuthor{
+  font-size: 22px;
+  margin-top: -6px;
+  margin-bottom: 30px;
+  color:#001E6C;
+}
+.descriptionBook{
+  font-size: 17px;
+}
+.price{
+  font-size: 20px;
+  color: red;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  color: #001E6C;
+  text-transform: uppercase;
+}
+.imageAboutUsOne{
+  margin-left: 30px;
+  width: 40%;
+}
+.containerAboutUs{
+  display: flex;
+  justify-content: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.textAboutUs{
+  margin-top: -400px;
+  margin-left: 530px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+.contactInfo{
+  font-size: 25px;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+.socialContact{
+  font-size: 40px;
+  margin: 90px;
+}
+.lastTextContact{
+  margin-top: -50px;
+  font-size: 17px;
+  color:#FCD900;
+  font-weight: bold;
+  font-style: italic;
+}
+.titleContact{
+  font-weight: bold;
+  color: #187498;
 }
